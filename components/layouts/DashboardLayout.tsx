@@ -25,7 +25,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
           </div>
         </div>
 
-        <div className="md:col-start-2">
+        <div className="md:col-start-2 bg-white">
           <Header />
           <main className="px-6 pb-10 md:px-8">{children}</main>
         </div>
